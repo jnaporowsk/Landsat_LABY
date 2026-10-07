@@ -1,0 +1,10 @@
+.venv/
+.build/
+__pycache__/
+.ipynb_checkpoints/
+outputs/
+.DS_Store
+._*
+.chart-data-*/
+~$*
+_to_delete/

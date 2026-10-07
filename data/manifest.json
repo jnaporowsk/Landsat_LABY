@@ -1,0 +1,38 @@
+{
+  "source_scene": "LC08_L1TP_188025_20130807_20170503_01_T1",
+  "acquisition_date": "2013-08-07",
+  "collection": 1,
+  "source": "Dane istniejącego projektu NASA/Landsat8, USGS/EROS",
+  "subset": "Prostokąt granicy obszaru, zachowana rozdzielczość 30 m i oryginalne DN. Przycięcie do wielokąta wykonuje student. XML zachowuje metadane pełnej sceny; rozmiary i transformację wycinka odczytujemy z GeoTIFF.",
+  "boundary_crs_assumption": "Oryginalny SHP nie ma PRJ ani DBF. EPSG:32634 odtworzono przez zgodność zasięgu ze znajdującymi się w projekcie rastrami clipped. GeoJSON zapisano w EPSG:4326. Nie jest to nowo pozyskana oficjalna granica administracyjna.",
+  "files": [
+    {
+      "path": "scene/LC08_L1TP_188025_20130807_20170503_01_T1_sr_band2.tif",
+      "sha256": "32e81e256fea8a5dc086b333682c2a1857b3d0f48fd9a39a99fe5f3d76a12886"
+    },
+    {
+      "path": "scene/LC08_L1TP_188025_20130807_20170503_01_T1_sr_band3.tif",
+      "sha256": "3805b3cde69edbbb96bfaeafae9ff6b6dd4e78b8643cc5a4ae9ab842c1088f78"
+    },
+    {
+      "path": "scene/LC08_L1TP_188025_20130807_20170503_01_T1_sr_band4.tif",
+      "sha256": "aeb44851c15880987b6ad28d3193dd4f48a239e32d63477bc423e4e58de87d1b"
+    },
+    {
+      "path": "scene/LC08_L1TP_188025_20130807_20170503_01_T1_sr_band5.tif",
+      "sha256": "d521ade405c70c01b234ce61dfe968e96c682df4c7805d6f90765c10154fc155"
+    },
+    {
+      "path": "scene/LC08_L1TP_188025_20130807_20170503_01_T1_sr_band6.tif",
+      "sha256": "693f98f2a8ea4ca4e4e31cec2eb3732bc6bb824cdfc576030cbe4233d4ac8c6b"
+    },
+    {
+      "path": "scene/LC08_L1TP_188025_20130807_20170503_01_T1_pixel_qa.tif",
+      "sha256": "e2b36e04b83959e491a1ba11d2ac3dab35c21da12388405dbc4c15844abf7ef6"
+    },
+    {
+      "path": "scene/LC08_L1TP_188025_20130807_20170503_01_T1_radsat_qa.tif",
+      "sha256": "a5603c98b05e58fd9e7749f3b1bb65cf68cf1e4ea269a061f526e9d5b12fad97"
+    }
+  ]
+}
